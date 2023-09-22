@@ -183,7 +183,7 @@ footer {
     margin-left: 20px;
   }
 } */
-@media (min-width: 375px) and (max-width: 600px) {
+@media (max-width: 600px) {
   .grid-container {
     display: grid;
     grid-template-columns: 1fr;
