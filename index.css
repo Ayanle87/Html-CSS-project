@@ -165,8 +165,25 @@ footer {
   display: flex;
   justify-content: space-around;
 }
-
-@media (max-width: 600px) {
+/* @media (max-width: 599px) {
+  header {
+    padding: 18px;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .navmenu {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navmenu a {
+    padding: 8px 18px;
+  }
+  .nav-icon {
+    margin-left: 20px;
+  }
+} */
+@media (min-width: 376px) and (max-width: 600px) {
   .grid-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -183,6 +200,9 @@ footer {
   }
   .home-text {
     font-size: small;
+  }
+  .logo {
+    font-size: 18px;
   }
 
   .btn1 {
@@ -225,11 +245,9 @@ footer {
   }
   .logo {
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 13px;
   }
-  .nav-icon {
-    margin-left: 40px;
-  }
+
   footer {
     text-align: center;
   }
